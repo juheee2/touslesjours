@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="뚜레쥬르, 신선함, 갓구운, 베이커리, 빵, 케이크, 커피, 샌드위치, 케익, 뚜레쥬르매장, 이벤트, 할인혜택, 쇼핑몰, 배송, 뚜레쥬르 창업">
+  <meta name="maker" content="min ju hee">
+  
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>TOUS les JOURS</title>
+  <style>
+    :root{
+      --main-color:#365442;
+      --sub-color:#ed8324;
+      font-family:'Nanum Gothic',sans-serif;
+      font-size:15px;
+      font-weight:400;
+      color:#365442;
+      line-height:1.4;
+    }
+    .container{
+      padding:0 20px;
+    }
+    #wrap{
+      height:10000px;
+    }
+    .header-banner{
+      text-align:center;
+      background:var(--main-color);
+      color:#fff;
+    }
+    .header{      
+      position: sticky;
+      top:0;
+      padding:26px 0;
+    }
+    .header .container{
+      display:grid;
+      grid-template-columns:repeat(3,auto);
+      justify-content:space-between;
+      align-items:center;
+      background:#fff;
+    }
+    .header .container h1{
+      order:2;
+    }
+    .header h1 .img-box{
+      width:175px;
+    }
+    .header .container .nav{
+      order:2;
+      display:none;
+    }
+    .header .container .btn-nav{
+      width:22px;
+      order:1;
+    }
+    .header .container .btn-find{
+      order:3;
+      width:22px;
+    }
+
+
+    @media (min-width:1280px){
+      .btn-nav{
+        display:none;
+      }
+      .header .container h1{
+        order:1;
+      }
+      .header .container .nav{
+        display:block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section id="wrap">
+    <section class="header-banner">
+      <p><a href="#">창업안내(자세히 보기 click)</a></p>
+    </section>
+    <header class="header">      
+      <div class="container">
+        <h1>
+          <!-- <div class="main-tit"><a href="./index.html">뚜레쥬르</a></div> -->
+          <div class="img-box"><a href="./index.html"><img id="header-logo" src="./images/logo.svg" alt="뚜레쥬르 로고"></a></div>
+        </h1>
+        <nav class="nav">
+          <ul class="main-nav">
+            <li>
+              <a href="#">브랜드 이야기</a>
+              <div class="sub-nav">
+                <ul>
+                  <li><a href="#">브랜드 스토리</a></li>
+                  <li><a href="#">뚜레쥬르 공고</a></li>
+                  <li><a href="#">뚜레쥬르 재료 이야기</a></li>
+                  <li><a href="#">글로벌 뚜레쥬르</a></li>
+                  <li><a href="#">뚜레쥬르 라뜰리에</a></li>
+                  <li><a href="#">뚜레쥬르 착한빵</a></li>
+                  <li><a href="#">뉴스 & 공지사항</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">제품 안내</a>
+              <div class="sub-nav">
+                <ul>
+                  <li><a href="#">신제품</a></li>
+                  <li><a href="#">빵</a></li>
+                  <li><a href="#">케이크</a></li>
+                  <li><a href="#">델리</a></li>
+                  <li><a href="#">선물</a></li>
+                  <li><a href="#">디저트&스낵</a></li>
+                  <li><a href="#">음료</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">이벤트&멤버십</a>
+              <div class="sub-nav">
+                <ul>
+                  <li><a href="#">진행중인 이벤트</a></li>
+                  <li><a href="#">이벤트 당첨자</a></li>
+                  <li><a href="#">CJ ONE멤버십</a></li>
+                  <li><a href="#">제휴 혜택</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">온라인 뚜레쥬르</a>
+              <div class="sub-nav">
+                <ul>
+                  <li><a href="#">뚜레쥬르 앱</a></li>
+                  <li><a href="#">홈페이지 전용 예약 배송</a></li>
+                  <li><a href="#">꽃&케이크 택배 배송</a></li>
+                  <li><a href="#">대량 구매 문의</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">매장 안내</a>
+            </li>
+            <li>
+              <a href="#">주문 정보</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="btn-nav">
+          <a href="#">
+            <img src="./images/btn-nav.svg" alt="네비버튼">
+          </a>
+        </div>
+        <div class="btn-find">
+          <a href="#">
+            <img src="./images/btn-find.svg" alt="찾기버튼">
+           </a> 
+        </div>
+      </div>
+    </header>
+    
+  </section>
+
+
+  <script src="./js/swiper-bundle.min.js"></script>
+
+ 
+</body>
+</html>
