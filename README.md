@@ -39,7 +39,7 @@
 + 컬러
    : #365442  #ed6c24 (뚜레쥬르의 새로운 브랜드 컬러로 제시된 색상 사용)
 + 폰트
-   : 'NanumGothic-Regular', 'NanumGothic-Bold'
+   : 'NanumGothic-Regular', 'NanumGothic-Bold', 'NanumGothic-ExtraBold'
 
 
 ### 📌 BEFORE & AFTER
