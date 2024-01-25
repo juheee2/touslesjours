@@ -42,6 +42,10 @@
    : 'NanumGothic-Regular', 'NanumGothic-Bold', 'NanumGothic-ExtraBold'
 
 
+### 📌 와이어프레임
+![와이어프레임](https://github.com/juheee2/touslesjours/blob/main/%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84.png)
+
+
 ### 📌 BEFORE & AFTER
 ![before & after](https://github.com/juheee2/touslesjours/blob/main/%EB%9A%9C%EB%A0%88%EC%A5%AC%EB%A5%B4%20before%26after.png)
 
